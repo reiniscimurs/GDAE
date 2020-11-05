@@ -13,20 +13,26 @@ Main dependencies:
 * [SLAM Toolbox](https://github.com/SteveMacenski/slam_toolbox)
 
 Code of the experimental implementation is available in the "Code" folder.
+
 Videos, images, and gifs of experiments are available in the "Experiments" folder.
 
 
 *Extended video of experiments: 
+
 [![EXPERIMENTS](https://img.youtube.com/vi/MhuhsSdzZFk/0.jpg)](https://www.youtube.com/watch?v=MhuhsSdzZFk)
 
 *Examples of experimental results:
+
 Robot World 2020 Expo
+
 Goal location (80, 25)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp3.gif">
 </p>
+
 Final map
+
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/robotworldexp3.png">
 </p>
