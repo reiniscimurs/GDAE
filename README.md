@@ -38,7 +38,7 @@ Final map
 </p>
 
 
-Testing exploration with return to initial position. Initially, the robot navigates to the set goal. Once it is reached, the goal is changed to the (0, 0) coordinate and the robot navigates back to its starting position. Robot uses path planning and previously obtained nodes for backtracking. This is is still in testing phase, but we expect to be able to extend the system to multi-goal navigation with return to starting position. Goal location (23, -3)
+Testing exploration with return to initial position. Initially, the robot navigates to the set goal. Once it is reached, the goal is changed to the (0, 0) coordinate and the robot navigates back to its starting position. Robot uses path planning and previously obtained nodes for backtracking. This is still in testing phase, but we expect to be able to extend the system to multi-goal navigation with return to starting position. Goal location (23, -3)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp2.gif">
