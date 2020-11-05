@@ -61,7 +61,7 @@ Goal location (120,0)
 Final map
 
 <p align="center">
-    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/parkin120.png">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/parking120m.png">
 </p>
 
 **Hallway**
