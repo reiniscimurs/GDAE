@@ -23,7 +23,6 @@ Videos, images, and gifs of experiments are available in the "Experiments" folde
 
 
 **Robot World 2020 Expo**
-
 Goal location (80, 25)
 
 <p align="center">
@@ -47,4 +46,43 @@ Final map
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/robotworldexp2.png">
+</p>
+
+
+**Underground Parking**
+Goal location (120,0)
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/parking120.gif">
+</p>
+
+Final map
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/parking120.png">
+</p>
+
+**Hallway**
+Goal location (12.5, -88)
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/hallwayexp.gif">
+</p>
+
+Final map
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/hallwayexp.png">
+</p>
+
+Testing a setting with unreachable goal. Goal is located in a room that the robot cannot physically enter. Exploration continues until manual termination. Goal location (20, -65)
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/unreachablegoal.gif">
+</p>
+
+Final map
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/unreachablegoal.png">
 </p>
