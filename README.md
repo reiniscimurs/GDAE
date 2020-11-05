@@ -12,28 +12,21 @@ Main dependencies:
 * [Move_base](http://wiki.ros.org/move_base)
 * [SLAM Toolbox](https://github.com/SteveMacenski/slam_toolbox)
 
+Code of the experimental implementation is available in the "Code" folder.
+Videos, images, and gifs of experiments are available in the "Experiments" folder.
 
 
-
-
+*Extended video of experiments: 
 [![EXPERIMENTS](https://img.youtube.com/vi/MhuhsSdzZFk/0.jpg)](https://www.youtube.com/watch?v=MhuhsSdzZFk)
 
+*Examples of experimental results:
+Robot World 2020 Expo
+Goal location (80, 25)
 
-Results:
-
-* After 400'000'000 steps:
 <p align="center">
-    <img width=40% src="https://github.com/reiniscimurs/TD3_Separate_Action/blob/master/Gifs/Cheetah40.gif">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp3.gif">
 </p>
-* After 500'000'000 steps:
+Final map
 <p align="center">
-    <img width=40% src="https://github.com/reiniscimurs/TD3_Separate_Action/blob/master/Gifs/Cheetah50.gif">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/robotworldexp3.png">
 </p>
-* After 1'000'000'000 steps:
-<p align="center">
-    <img width=40% src="https://github.com/reiniscimurs/TD3_Separate_Action/blob/master/Gifs/Cheetah100.gif">
-</p>
-
-
-
-The original TD3 paper: https://arxiv.org/abs/1802.09477
