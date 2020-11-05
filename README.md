@@ -17,13 +17,12 @@ Code of the experimental implementation is available in the "Code" folder.
 Videos, images, and gifs of experiments are available in the "Experiments" folder.
 
 
-*Extended video of experiments: 
+**Extended video of experiments:** 
 
 [![EXPERIMENTS](https://img.youtube.com/vi/MhuhsSdzZFk/0.jpg)](https://www.youtube.com/watch?v=MhuhsSdzZFk)
 
-*Examples of experimental results:
 
-Robot World 2020 Expo
+**Robot World 2020 Expo**
 
 Goal location (80, 25)
 
@@ -35,4 +34,17 @@ Final map
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/robotworldexp3.png">
+</p>
+
+
+Testing exploration with return to initial position. Goal location (23, -3)
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp2.gif">
+</p>
+
+Final map
+
+<p align="center">
+    <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/robotworldexp2.png">
 </p>
