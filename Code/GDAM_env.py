@@ -540,15 +540,10 @@ class ImplementEnv:
             else:
                 self.accelNeg += self.accelNeg_high
                 linear = max(self.linearLast - self.accelNeg, linear)
-
-        if angular > self.angularLast and angular > 0:
+                
+        if self.angularLast < angular:
             angular = min(self.angularLast + self.angPos, angular)
-        if self.angularLast > angular >= 0:
-            angular = angular / 2
-
-        if self.angularLast < angular < 0:
-            angular = angular / 2
-        if angular < self.angularLast and angular < 0:
+        if self.angularLast > angular:
             angular = max(self.angularLast - self.angPos, angular)
 
         return linear, angular
