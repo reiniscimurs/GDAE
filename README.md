@@ -20,11 +20,11 @@ Videos, images, and gifs of experiments are available in the "Experiments" folde
 **Extended video of experiments:** 
 
 [![EXPERIMENTS](https://img.youtube.com/vi/MhuhsSdzZFk/0.jpg)](https://www.youtube.com/watch?v=MhuhsSdzZFk)
-
+This includes experiments in a cluttered environment, hallway with backtracking and escape from local optimum, underground parking lot, and Robot World Expo with dynamic real-word obstacles. In Robot World Expo the navigation system has to navigate around pedestrians who are not familiar with the robots movements, its capabilities, and tasks which make for a good test of our systems navigation capabilities. At a point, a robot navigates into one of the booths and, when moving out of it, a person blocks its way out. Therefore, the robot spends significant amount of time trying to find a free direction to move towards. When the person moves, a way out of the booth becomes available and the robot resumes its navigation and mapping towards the initial global goal. Additional experiments are displayed below and even more experimental results are available in the "Experiments" folder. 
 
 **Robot World 2020 Expo**
 
-Goal location (80, 25)
+Robot navigates in a dynamic setting with booths, robots, unsuspecting pedestrians and others as obstacles. The goal is set the same as in the aforementioned video and is a different experiment with the same goal. Goal location (80, 25)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp3.gif">
@@ -37,7 +37,7 @@ Final map
 </p>
 
 
-Testing exploration with return to initial position. Goal location (23, -3)
+Testing exploration with return to initial position. Initially, the robot navigates to the set goal. Once it is reached, the goal is changed to the (0, 0) coordinate and the robot navigates back to its starting position. Robot uses path planning and previously obtained nodes for backtracking. This is is still in testing phase, but we expect to be able to extend the system to multi-goal navigation with return to starting position. Goal location (23, -3)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/robotworldexp2.gif">
@@ -50,9 +50,9 @@ Final map
 </p>
 
 
-**Underground Parking**
+**Underground Parking Lot**
 
-Goal location (120,0)
+Test in an underground parking lot with a lot of reoccuring similar features over a long distance of 120 meters. Moreover, the mapping does not register the parking bumpers, but the local learned navigation does and navigates around them. Goal location (120,0)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/parking120.gif">
@@ -66,6 +66,7 @@ Final map
 
 **Hallway**
 
+A different hallway from the one seen in the video. The robot first needs to navigate outside of a room and then go straight towards the final goal. New intermediate goal points are extracted from the environment and the path planner.
 Goal location (12.5, -88)
 
 <p align="center">
@@ -78,7 +79,7 @@ Final map
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/images/hallwayexp.png">
 </p>
 
-Testing a setting with unreachable goal. Goal is located in a room that the robot cannot physically enter. Exploration continues until manual termination. Goal location (20, -65)
+Testing a setting with unreachable goal. Goal is located in a room that the robot cannot physically enter. Robot navigates to the vicinity of the goal and tries to find a way to it by entering a narrow hallway. Once the narrow hallway is explored, the robot backtracks and navigates towards other possible intermediate goals. Exploration continues until manual termination. Goal location (20, -65)
 
 <p align="center">
     <img width=40% src="https://github.com/reiniscimurs/GDAM/blob/main/experiments/Gifs/unreachablegoal.gif">
