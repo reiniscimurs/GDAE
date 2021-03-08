@@ -23,6 +23,10 @@ Videos, images, and gifs of experiments are available in the "Experiments" folde
 
 This includes experiments in a cluttered environment, hallway with backtracking and escape from local optimum, underground parking lot, and Robot World Expo with dynamic real-world obstacles. In Robot World Expo the navigation system has to navigate around pedestrians who are not familiar with the robots movements, its capabilities, and tasks which make for a good test of our systems navigation capabilities. At a point, a robot navigates into one of the booths and, when moving out of it, a person blocks its way out. Therefore, the robot spends significant amount of time trying to find a free direction to move towards. When the person moves, a way out of the booth becomes available and the robot resumes its navigation and mapping towards the initial global goal. Additional experiments are displayed below and even more experimental results are available in the "Experiments" folder. 
 
+**Additional video of experiments:** 
+
+[![EXPERIMENTS](https://img.youtube.com/vi/AztCbFmFYE4/0.jpg)](https://www.youtube.com/watch?v=AztCbFmFYE4)
+
 **Robot World 2020 Expo**
 
 Robot navigates in a dynamic setting with booths, robots, unsuspecting pedestrians and others as obstacles. The goal is set the same as in the aforementioned video and is a different experiment with the same goal. Goal location (80, 25)
