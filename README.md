@@ -32,7 +32,8 @@ This includes experiments in a cluttered environment, hallway with backtracking 
 The article is available at: https://arxiv.org/abs/2103.07119
 
 Can be cited as:
-[@misc{cimurs2021goaldriven,
+
+[@misc{cimurs2021goaldriven,/n
       title={Goal-Driven Autonomous Mapping Through Deep Reinforcement Learning and Planning-Based Navigation}, 
       author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},
       year={2021},
