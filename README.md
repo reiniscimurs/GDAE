@@ -27,6 +27,18 @@ This includes experiments in a cluttered environment, hallway with backtracking 
 
 [![EXPERIMENTS](https://img.youtube.com/vi/AztCbFmFYE4/0.jpg)](https://www.youtube.com/watch?v=AztCbFmFYE4)
 
+**Pre-print of the article:**
+The article is available at: https://arxiv.org/abs/2103.07119
+Can be cited as:
+@misc{cimurs2021goaldriven,
+      title={Goal-Driven Autonomous Mapping Through Deep Reinforcement Learning and Planning-Based Navigation}, 
+      author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},
+      year={2021},
+      eprint={2103.07119},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+
 **Robot World 2020 Expo**
 
 Robot navigates in a dynamic setting with booths, robots, unsuspecting pedestrians and others as obstacles. The goal is set the same as in the aforementioned video and is a different experiment with the same goal. Goal location (80, 25)
