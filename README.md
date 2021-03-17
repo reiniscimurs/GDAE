@@ -31,15 +31,15 @@ This includes experiments in a cluttered environment, hallway with backtracking 
 
 The article is available at: https://arxiv.org/abs/2103.07119
 
-Can be cited as:/
-[@misc{cimurs2021goaldriven,/n
-      title={Goal-Driven Autonomous Mapping Through Deep Reinforcement Learning and Planning-Based Navigation}, 
-      author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},
-      year={2021},
-      eprint={2103.07119},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}]
+Can be cited as:<br/>
+@misc{cimurs2021goaldriven,<br/>
+      title={Goal-Driven Autonomous Mapping Through Deep Reinforcement Learning and Planning-Based Navigation}, <br/>
+      author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},<br/>
+      year={2021},<br/>
+      eprint={2103.07119},<br/>
+      archivePrefix={arXiv},<br/>
+      primaryClass={cs.RO}<br/>
+}
 
 **Robot World 2020 Expo**
 
