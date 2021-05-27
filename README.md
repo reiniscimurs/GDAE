@@ -27,6 +27,13 @@ This includes experiments in a cluttered environment, hallway with backtracking 
 
 [![EXPERIMENTS](https://img.youtube.com/vi/AztCbFmFYE4/0.jpg)](https://www.youtube.com/watch?v=AztCbFmFYE4)
 
+
+**More videos at:** 
+
+https://youtu.be/dFpQ9tUWG8A
+
+https://youtu.be/hYc0KXzwtKk
+
 **Pre-print of the article:**
 
 The article is available at: https://arxiv.org/abs/2103.07119
