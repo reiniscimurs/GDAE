@@ -40,13 +40,18 @@ The article is available at: https://arxiv.org/abs/2103.07119
 
 Can be cited as:<br/>
 @misc{cimurs2021goaldriven,<br/>
-      title={Goal-Driven Autonomous Mapping Through Deep Reinforcement Learning and Planning-Based Navigation}, <br/>
+      title={Goal-Driven Autonomous Exploration Through Deep Reinforcement Learning}, <br/>
       author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},<br/>
       year={2021},<br/>
       eprint={2103.07119},<br/>
       archivePrefix={arXiv},<br/>
       primaryClass={cs.RO}<br/>
 }
+
+**An example of network training available at:** 
+
+https://github.com/reiniscimurs/DRL-robot-navigation
+
 
 **Robot World 2020 Expo**
 
