@@ -2,6 +2,24 @@
 
 A goal-driven autonomous exploration and mapping system that combines reactive and planned robot navigation. First, a navigation policy is learned through a deep reinforcement learning framework in a simulated environment. This policy guides an autonomous agent towards a goal while avoiding obstacles. We develop a navigation system where this learned policy is integrated into a motion planning stack as the local navigation layer to move the robot towards the intermediate goals. A global navigation strategy is used to mitigate the local optimum problem and guide the robot towards the global goal. Possible intermediate goal locations are extracted from the environment and used as local goals according to the navigation system heuristics. The fully autonomous navigation is performed without any prior knowledge while mapping is performed as the robot moves through the environment.
 
+**Article has been accepted and published in IEEE RA-L:**
+
+The article is available [here](https://ieeexplore.ieee.org/document/9645287?source=authoralert)
+
+Can be cited as:<br/>
+```
+@ARTICLE{9645287,
+  author={Cimurs, Reinis and Suh, Il Hong and Lee, Jin Han},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Goal-Driven Autonomous Exploration Through Deep Reinforcement Learning}, 
+  year={2022},
+  volume={7},
+  number={2},
+  pages={730-737},
+  doi={10.1109/LRA.2021.3133591}}
+```
+
+
 
 Main dependencies: 
 
@@ -33,20 +51,6 @@ This includes experiments in a cluttered environment, hallway with backtracking 
 https://youtu.be/dFpQ9tUWG8A
 
 https://youtu.be/hYc0KXzwtKk
-
-**Pre-print of the article:**
-
-The article is available at: https://arxiv.org/abs/2103.07119
-
-Can be cited as:<br/>
-@misc{cimurs2021goaldriven,<br/>
-      title={Goal-Driven Autonomous Exploration Through Deep Reinforcement Learning}, <br/>
-      author={Reinis Cimurs and Il Hong Suh and Jin Han Lee},<br/>
-      year={2021},<br/>
-      eprint={2103.07119},<br/>
-      archivePrefix={arXiv},<br/>
-      primaryClass={cs.RO}<br/>
-}
 
 **An example of network training available at:** 
 
