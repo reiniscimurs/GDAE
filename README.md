@@ -2,7 +2,7 @@
 
 A goal-driven autonomous exploration and mapping system that combines reactive and planned robot navigation. First, a navigation policy is learned through a deep reinforcement learning framework in a simulated environment. This policy guides an autonomous agent towards a goal while avoiding obstacles. We develop a navigation system where this learned policy is integrated into a motion planning stack as the local navigation layer to move the robot towards the intermediate goals. A global navigation strategy is used to mitigate the local optimum problem and guide the robot towards the global goal. Possible intermediate goal locations are extracted from the environment and used as local goals according to the navigation system heuristics. The fully autonomous navigation is performed without any prior knowledge while mapping is performed as the robot moves through the environment.
 
-**Article has been accepted and published in IEEE RA-L and ICRA 2022:**
+**Article has been accepted and published in IEEE RA-L and accepted for ICRA 2022:**
 
 The article is available [here](https://ieeexplore.ieee.org/document/9645287?source=authoralert)
 
